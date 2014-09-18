@@ -1,0 +1,32 @@
+GEM
+  remote: https://www.rubygems.org/
+  specs:
+    childprocess (0.5.3)
+      ffi (~> 1.0, >= 1.0.11)
+    ffi (1.9.3)
+    json (1.8.1)
+    mime-types (2.3)
+    multi_json (1.10.1)
+    net-http-persistent (2.9.4)
+    netrc (0.7.7)
+    rest-client (1.7.2)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    rubyzip (1.1.6)
+    sauce_whisk (0.0.14)
+      json (~> 1.8.1)
+      rest-client (~> 1.7.1)
+    selenium-webdriver (2.43.0)
+      childprocess (~> 0.5)
+      multi_json (~> 1.0)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    websocket (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  net-http-persistent
+  sauce_whisk
+  selenium-webdriver
