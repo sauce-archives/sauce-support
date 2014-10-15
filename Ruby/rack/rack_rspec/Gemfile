@@ -1,0 +1,7 @@
+source "https://www.rubygems.org"
+
+gem "sauce", "3.5.3"
+gem "sauce-connect"
+gem "rspec", "~> 3.0.0" 
+gem "rake"
+gem "rack"

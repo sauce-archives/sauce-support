@@ -1,0 +1,5 @@
+require "rspec/core"
+require "sauce/config"
+require "sauce"
+# require_relative "spec/sauce_helper"
+require "tasks/parallel_testing"
