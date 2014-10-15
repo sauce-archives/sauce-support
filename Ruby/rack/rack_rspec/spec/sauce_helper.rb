@@ -1,4 +1,5 @@
 require "sauce"
+require "sauce/capybara"
 
 Sauce.config do |c|
   c[:browsers] = [
