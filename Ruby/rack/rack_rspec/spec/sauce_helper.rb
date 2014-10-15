@@ -9,3 +9,6 @@ Sauce.config do |c|
     ["Linux", "Chrome", "26"]
   ]
 end
+
+Capybara.default_driver = :sauce
+Capybara.javascript_driver = :sauce

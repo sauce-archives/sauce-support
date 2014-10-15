@@ -9,6 +9,3 @@ RSpec.configure do |c|
     Server.start
   end
 end
-
-Capybara.default_driver = :sauce
-Capybara.javascript_driver = :sauce
