@@ -14,5 +14,5 @@ end
 
 Capybara.default_driver = :sauce
 Capybara.javascript_driver = :sauce
-Capybara.server_port = Sauce::Config.new[:application_port]
+
 Capybara.app = RackNRoll.new
