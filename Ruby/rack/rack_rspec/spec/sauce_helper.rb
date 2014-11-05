@@ -1,5 +1,4 @@
 require "sauce"
-require "sauce/capybara"
 
 Sauce.config do |c|
   c[:browsers] = [
@@ -9,6 +8,3 @@ Sauce.config do |c|
     ["Linux", "Chrome", "26"]
   ]
 end
-
-Capybara.default_driver = :sauce
-Capybara.javascript_driver = :sauce
